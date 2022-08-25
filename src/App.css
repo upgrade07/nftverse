@@ -1,0 +1,90 @@
+.App {
+  background-color:#F0FFFF ;
+  display: grid;
+  grid-template-columns: 20% 80%;
+ padding: 10px
+
+}
+.leftview{
+  padding: 5%;
+  border: 2px solid red;
+  height: 100vh;
+}
+.rightview{
+  padding: 2%;
+  border: 2px solid yellow;
+  height: 100vh;
+}
+.leftheader{
+
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+.leftheader-right{
+  margin-left : 28%;
+  margin-top : 6%
+}
+.logo img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+.logotext{
+  margin-bottom: 5%;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.ham{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+.profilecomp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profileimg img{
+  height: 2rem;
+}
+.left-content{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 2%;
+}
+.right-content{
+  display: flex;
+  justify-content: space-around;
+  margin-left:25%;
+  padding: 2rem;
+  
+}
+
+
+.maincontent{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows:33% 33% 33% ;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height:max-content;
+  border: 2px solid black;
+}
+
+.card-container{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
